@@ -1,0 +1,618 @@
+@media(max-width: 1240px){
+    .about-text{
+        flex-basis: 50%;
+    }
+
+    .about{
+        padding-left: 10rem;
+    }
+
+    .about-img{
+        width: 80rem;
+    }
+
+    .about-img img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1100px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 1000px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 850px){
+    html{
+        font-size: 42%;
+    }
+}
+
+@media(max-width: 780px){
+    html{
+        font-size: 35%;
+    }
+
+    .account{
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width: 700px){
+    html{
+        font-size: 30%;
+    }
+
+    .account{
+        margin-top: 14rem;
+    }
+}
+
+@media(max-width: 620px){
+    html{
+        font-size: 25%;
+    }
+
+    .account{
+        margin-top: 20rem;
+    }
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 70%;
+        overflow-x: hidden;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    .footer-create{
+        margin-bottom: 2rem;
+    }
+
+    .download{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-boxes{
+        row-gap: 5.3rem;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .footer-link{
+        text-align: center;
+    }
+
+    .reserved{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faded{
+        text-align: center;
+    }
+
+    .footer-address{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail,.number{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .message-icon{
+        right: 3rem;
+    }
+
+    .footer-head{
+        font-size: 3rem;
+    }
+
+    .faded,.footer-link{
+        font-size: 1.4rem;
+    }
+
+    .reserved-text{
+        font-size: 1.3rem;
+    }
+
+    .mail-name,.num{
+        font-size: 1.6rem;
+    }
+
+    .media-icon a img{
+        width: 3.2rem;
+    }
+
+    /*.mobile-nav{
+        background-color: #002e45;
+        display: block;
+        z-index: 22222;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 7rem;
+        padding-left: 4.6rem;
+        opacity: 0;
+    }*/
+
+    #click,.label{
+        float: right;
+        position: absolute;
+        top: 0%;
+        z-index: 22222222;
+        right: 10%;
+    }
+
+    #click{
+        display: none;
+    }
+
+    .label ion-icon{
+        padding-top: 1.7rem;
+        font-size: 4rem;
+        position: sticky;
+        color: #fff;
+    }
+
+    .mobile-nav{
+        display: block;
+        z-index: 12345500;
+        position: sticky;
+    }
+
+    #click:checked ~ .mobile-links{
+        opacity: 1;
+        display: flex;
+    }
+
+    #click:checked ~ .label ion-icon{
+        color: #fff;
+    }
+
+    .mobile-links{
+        transition: all 1s;
+        background-color: #002e45;
+        z-index: 9999999;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 7rem;
+        padding-left: 4.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        display: none;
+    }
+
+    .mobile-links img{
+        width: 16rem;
+        padding-bottom: 2rem;
+    }
+
+    .mobile-link{
+        color: #0993dc;
+        font-size: 1.9rem;
+        text-decoration: none;
+    }
+
+    .terms{
+        padding-top: 3rem;
+    }
+
+    .terms a{
+        display: block;
+        text-decoration: none;
+        color: #505050;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .mobile-download {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .mobile-download a img{
+        width: 13rem;
+    }
+
+    .account-head{
+        text-align: center;
+    }
+
+    .acc-text{
+        text-align: center;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .about-text{
+        padding: 1rem 3rem;
+    }
+
+    .account{
+        border-radius: 0px;
+        width: 100vw;
+        margin-top: 0;
+    }
+
+    .account-boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .account-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phones{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0.3rem;
+        justify-items: center;
+    }
+
+    .about-img{
+        grid-row: 1;
+    }
+
+    .about-text{
+        align-items: center;
+        text-align: center;
+    }
+
+    .phone-img{
+        position: absolute;
+        display: none;
+    }
+
+    .exp-btn{
+        display: none;
+    }
+
+    .exp-boxes{
+        overflow-x: scroll;
+        margin-top: 8rem;
+        background: rgba(0,13,20,.7);
+        padding: 3rem 5rem 3rem 1rem;
+        margin-top: 40rem;
+        margin-bottom: 4rem;
+        z-index: 1;
+    }
+
+    .exp-box{
+        margin: 0;
+        width: 12rem;
+        height: 11rem;
+    }
+
+    .exp-box p{
+        font-size: 1.1rem;
+    }
+
+    .mobile-exp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-exp img{
+        position: absolute;
+        width: 36rem;
+        left: 16%;
+        bottom: 12%;
+        z-index: -1;
+    }
+
+    .exphead{
+        color: #0993dc;
+        font-size: 3.4rem;
+    }
+
+    .exphead span{
+        color: #fff;
+    }
+
+    .mobile-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #24a361;;
+        text-decoration: none;
+        font-size: 1.3rem;
+        max-width: 32rem;
+        padding: 1rem 4rem;
+        border-radius: 10px;
+        margin-top: -11rem;
+        z-index: 10;
+        z-index: -1;
+        position: absolute;
+        margin-left: -20rem;  
+        bottom: 15%; 
+        left: 75%;
+    }
+
+    .boxes-1 .exp-box{
+        margin-bottom: 0;
+    }
+
+    .experience-section{
+        padding: 7rem 2rem 19rem 2rem;
+    }
+
+    .boxes-1,.boxes-2,.boxes-3{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .boxes-1,.boxes-2{
+        margin-right: 2rem;
+    }
+
+    .hero-text{
+        display: none;
+    }
+
+    .hero-you{
+        font-size: 3.3rem;
+        padding: 0.5rem 3rem;
+        left: 10%;
+        width: 35rem;
+    }
+
+    .hero-start{
+        font-size: 1.8rem;
+        top: 75%;
+    }
+
+    header{
+        padding: 0;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        width: fit-content;
+        position: absolute;
+    }
+
+    nav{
+        width: 50%;
+    }
+
+    .experience-section{
+        margin-top: 0%;
+    }
+
+    .section-hero{
+        position: relative;
+    }
+
+    .hero-img{
+        object-fit: cover;
+        background-image: url('../image/blue_soft_bg.6691c492f883a6895428.png');
+        background-position: 50%;
+    }
+
+    .main-logo{
+        padding-top: 3rem;
+    }
+
+    .phone-texts{
+        opacity: 1;
+        top: 67%;
+        text-align: center;
+        left: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .phone-texts p{
+        margin-bottom: 1rem;
+    }
+
+    .phones-1 img,.phones-2 img{
+        width: 17rem;
+    }
+
+    .phones-img:hover {
+        transform: translateX(0);
+    }
+
+    .phones-img:hover ~ .phone-head{
+        transform: translate(0,0);
+    }
+
+    .phone-head{
+        top: 12%;
+    }
+
+    .phones-1,.phones-2{
+        padding-bottom: 25rem;
+        padding-top: 13rem;
+    }
+
+    .account-boxes{
+        gap: 4rem;
+    }
+
+    .acc-logo{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .account{
+        padding: 6.4rem 4rem;
+    }
+
+    .mobile-exp p{
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        font-size: 1.2rem;
+        transform: translateX(0.8rem);
+    }
+    
+    .animations h2 {
+        font-size: 6rem;
+    }
+}
+
+@media(max-width: 450px){
+    html{
+        font-size: 65%;
+    }
+    
+    .hero-start{
+        font-size: 1.5rem;
+        padding: 1.4rem 1.6rem;
+        top: 71%;
+    }
+
+    .exp-text p{
+        padding: 0rem 0.5rem 7rem 0.5rem;
+    }
+
+    .animations h2{
+        font-size: 5.4rem;
+    }
+
+    .hero-you{
+        left: 6%;
+    }
+
+    .exphead{
+        font-size: 2.8rem;
+    }
+
+    .mobile-exp img{
+        left: 15%;
+        width: 31rem;
+        bottom: 28%;
+    }
+
+    .mobile-exp p{
+        top: 23%;
+    }
+
+    .exp-boxes{
+        margin-top: 48rem;
+        margin-bottom: 0rem;
+        transform: translateY(-28rem);
+    }
+
+    .mobile-btn{
+        bottom: 32%;
+    }
+
+    .animation-second{
+        animation: indexes 2s linear;
+    }
+
+    .animation-third{
+        animation: indexes 3.5s linear;
+    }
+
+    .animation-fourth{
+        animation: indexes 5s linear;
+    }
+
+    .animation-last{
+        animation: indexes 6.5s linear;
+    }
+
+    .animations{
+        animation: index 8.5s linear;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile-desk{
+        display: block;
+    }
+
+    .mobile-desk p{
+        font-size: 6.9rem;
+        font-weight: 900;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+
+    .animation-last .mobile-desk .we{
+        color: #fff;
+        font-family: 'Poppins',sans-serif;
+        background-color: transparent;
+        font-size: 1.6rem;
+        font-style: normal;
+        display: block;
+        font-weight: 700;
+    }
+
+    .animation-last .mobile-desk .desk{
+        font-family: 'Sofia Sans',sans-serif;
+        font-size: 4.9rem;
+        font-weight: 800;
+    }
+
+    .animation-last .mobile-desk .of{
+        color: #fff;
+        font-family: 'Sofia Sans',sans-serif;
+        font-size: 5rem;
+        background-color: transparent;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+
+}
+
+@media(max-width: 425px){
+    .animations h2{
+        font-size: 5.1rem;
+    }
+}
+
+@media(max-width: 400px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media(max-width: 370px){
+    html{
+        font-size: 57%;
+    }
+}
+
+@media(max-width: 300px){
+    html{
+        font-size: 44%;
+    }
+}

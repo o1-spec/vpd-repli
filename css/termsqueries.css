@@ -1,0 +1,283 @@
+@media(max-width: 1200px){
+    .container-content{
+        height: 104vh;
+    }
+}
+
+@media(max-width: 1070px){
+    header{
+        padding-left: 3rem;
+    }
+
+    .section-container{
+        padding-left: 6rem;
+    }
+
+    .container{
+        gap: 6rem;
+    }
+
+    .container-content{
+        height: 105vh;
+    }
+
+    .container-info{
+        padding-right: 5rem;
+    }
+}
+
+@media(max-width: 980px){
+    html{
+        font-size: 57%;
+    }
+}
+
+@media(max-width: 870px){
+    html{
+        font-size:  47%;
+    }
+    .container-content{
+        height: 83vh;
+    }
+}
+
+@media(max-width: 700px){
+    html{
+        font-size: 40%;
+    }
+    .container-content{
+        height: 70vh;
+    }
+}
+
+@media(max-width: 600px){
+    html{
+        font-size: 36%;
+    }
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 72%;
+    }
+
+    header{
+        padding-left: 3rem;
+        padding-top: 2.5rem;
+    }
+
+    .section-container{
+        padding-top: 12rem;
+        padding-left: 3.2rem;
+    }
+
+    .container-info{
+        padding-right: 6rem;
+        width: 100vw;
+    }
+
+    .links{
+       display: none;
+    }
+
+    .nav-img img{
+        width: 14rem;
+        padding-top: 0rem;
+    }
+
+    .container-content{
+        display: none;
+    }
+
+    .footer-create{
+        margin-bottom: 2rem;
+    }
+
+    .download{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-boxes{
+        row-gap: 5.3rem;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-items: center;
+        margin-left: -2rem;
+    }
+
+    .footer-link{
+        text-align: center;
+    }
+
+    .reserved{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faded{
+        text-align: center;
+    }
+
+    .footer-address{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail,.number{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .message-icon{
+        width: 4rem;
+        height: 4rem;
+        right: 1.6rem;
+        bottom: 1.2rem;
+    }
+
+    .message-icon svg{
+        width: 1.8rem;
+        height: 1.8rem;
+        fill: #fff; 
+    }
+
+    .footer-head{
+        font-size: 3rem;
+    }
+
+    .faded,.footer-link{
+        font-size: 1.4rem;
+    }
+
+    .reserved-text{
+        font-size: 1.3rem;
+    }
+
+    .mail-name,.num{
+        font-size: 1.6rem;
+    }
+
+    .media-icon a img{
+        width: 3.2rem;
+    }
+
+    /*.mobile-nav{
+        background-color: #002e45;
+        display: block;
+        z-index: 22222;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 7rem;
+        padding-left: 4.6rem;
+        opacity: 0;
+    }*/
+
+    #click,.label{
+        float: right;
+        position: absolute;
+        top: 3%;
+        z-index: 22222222;
+        right: 10%;
+    }
+
+    #click{
+        display: none;
+    }
+
+    .label ion-icon{
+        font-size: 3.4rem;
+        color: #505050;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+
+    #click:checked ~ .mobile-links{
+        opacity: 1;
+        display: flex;
+    }
+
+    #click:checked ~ .label ion-icon{
+        color: #fff;
+    }
+
+    .mobile-links{
+        transition: all 1s;
+        background-color: #002e45;
+        z-index: 99999;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 7rem;
+        padding-left: 4.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        display: none;
+    }
+
+    .mobile-links img{
+        width: 16rem;
+        padding-bottom: 2rem;
+    }
+
+    .mobile-link{
+        color: #0993dc;
+        font-size: 1.6rem;
+        text-decoration: none;
+    }
+
+    .terms{
+        padding-top: 3rem;
+    }
+
+    .terms a{
+        display: block;
+        text-decoration: none;
+        color: #505050;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .mobile-download {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .mobile-download a img{
+        width: 13rem;
+    }
+
+    h6{
+        font-size: 1.35rem;
+    }
+}
+
+@media(max-width: 394px){
+    .footer-boxes{
+        margin-left: -1.3rem;
+    }
+
+    .container-info{
+        padding-right: 5.4rem;
+    }
+}
+
+@media(max-width: 390px){
+    .container-info{
+        padding-right: 5rem;
+    }
+    
+    .section-container{
+        padding-left: 2.2rem;
+    }
+
+    .footer-boxes{
+        margin-left: -1.2rem;
+    }
+}

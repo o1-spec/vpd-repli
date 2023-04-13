@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f3f5f6;
+    font-family:'Poppins', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+    height: 100%;
+    max-width: 100%;
+}
+
+/************************************/
+/******* NAVIGATION SECTION *********/
+/************************************/
+header{
+    background: transparent;
+    padding: 1.5rem 1.4rem 2rem 12rem;
+    max-width: 127rem;
+    margin: auto;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layer-wraper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-img img{
+    padding-top: 2rem;
+    width: 14rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 6rem;
+}
+
+.nav-link{
+    color: #505050;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.pers-blue{
+    color: #0993dc;
+}
+
+.nav-btn{
+    background-color: #0ba830;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem 2.8rem 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-btn svg{
+    width: 2rem;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+/****************************/
+/****** CONTACT LAYER *******/
+/****************************/
+.contact-layer{
+    position: absolue;
+    padding-top: 18rem;
+    padding-bottom: 20rem;
+    /*padding-top: 25vh;
+    padding-bottom: 25vh;*/
+    width: 100%;
+}
+
+.contacts{
+    max-width: 110rem;
+    margin: auto;
+    display: flex;
+    gap: 22rem;
+}
+
+.contact-info{
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.contacts-head{
+    font-size: 4.2rem;
+    color: #002e45;
+    margin-bottom: 3rem;
+    width: 25vw;
+}
+
+.ng{
+    margin-bottom: 2rem;
+}
+
+.ng,.uk{
+    color: #505050;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.ng img{
+    width: 3rem;
+}
+
+.uk img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact-img{
+    padding-top: 2.4rem;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d2e7f2 0 0 no-repeat padding-box;;
+    gap: 2.6rem;
+    padding: 1.6rem 3.4rem;
+    border-radius: 14px;
+    width: 30rem;
+}
+
+.contact-box:nth-child(3){
+    padding: 1.9rem 3.4rem;
+}
+
+.contact-name{
+    font-size: 1.3rem;
+    color: #002e45;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-box img{
+    width: 3rem;
+}
+
+.contact-icons{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact-icons img{
+    width: 1.7rem;
+}
+
+/**********************************/
+/******* FOOTER ******************/
+/*********************************/
+.section-footer{
+    margin-top: 8rem;
+    background-color: #000a0f;
+    position: relative;
+    z-index: 99;
+    padding: 3.6rem;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.footer-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 12rem;
+}
+
+.footer-head{
+    color: #fff;
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+.download{
+    display: flex;
+    gap: 1rem;
+}
+
+.download img{
+    width: 18rem;
+}
+
+.footer-boxes{
+    max-width: 107rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 11rem;
+    padding-bottom: 3.5rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.footer-link{
+    color: hsla(0,0%,100%,.7);
+    font-size: 1.17rem;
+    text-decoration: none;
+}
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.faded{
+    font-size: 1.24rem;
+    color: #5a5a5a;
+    margin-bottom: 1rem;
+}
+
+.media-icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.media-icon a img{
+    width: 2rem;
+}
+
+.contact-head{
+    margin-bottom: 1.7rem;
+}
+
+.mail img,.number img{
+    width: 2rem;
+}
+
+.mail,.number{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.mail-name,.num{
+    color: hsla(0,0%,100%,.7);
+    font-size: 1.24rem;
+    text-decoration: none;
+    padding-bottom: 1.5rem;
+}
+
+.reserved{
+    max-width: 107rem;
+    margin: auto;
+}
+
+.reserved-info{
+    border-bottom: 1px solid #5a5a5a;;
+}
+
+.reserved-img{
+    width: 11.6rem;
+    padding: 1.7rem 0rem;
+}
+
+.reserved-text{
+    padding-top: 1.7rem;
+}
+
+.message-icon{
+    position: fixed;
+    z-index: 123556589;
+    background-color: #0071b2;
+    border-radius: 50%;
+    width: 4.8rem;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    bottom: 2rem;  
+    right: 2rem;
+}
+
+.message-icon svg{
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: #fff; 
+}

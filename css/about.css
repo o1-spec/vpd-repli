@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+}
+
+/************************************/
+/******* NAVIGATION SECTION *********/
+/************************************/
+header{
+    background: transparent;
+    padding: 1.4rem 1.4rem 2rem 12rem;
+    max-width: 127rem;
+    margin: auto;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img img{
+    padding-top: 2rem;
+    width: 14rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 6rem;
+}
+
+.nav-link{
+    color: #0993dc;;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.pers-blue{
+    color: #fff;
+}
+
+.nav-btn{
+    background-color: #0ba830;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem 2.8rem 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-btn svg{
+    width: 2rem;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.bg-image img{
+    width: 100vw;
+    position: absolute;
+    height: 50vw;
+}
+
+/****************************/
+/***** INDIVIDUAL SECTION****/
+/****************************/
+.section-individuals{
+    width: 100vw;
+    height: 40vw;
+}
+
+.individuals{
+    padding-top: 20.5rem;
+    z-index: 999;
+    position: absolute;
+    margin-left: -7rem;
+    margin-right: 3rem;
+}
+
+.individuals-images{
+    display: flex;
+    gap: 4.4rem;
+}
+
+.individual-img img{
+    width: 18.2rem;
+}
+
+.individual-info{
+    margin-top: -1rem;
+}
+
+.individual-head{
+    color: #fff;
+    font-size: 3.9rem;
+    line-height: 1.2;
+    margin-bottom: 2.4rem;
+    font-weight: normal;
+}
+
+.individual-head span{
+    color: #0993dc;
+}
+
+.individual-text{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+/*********************************/
+/******** HUB SECTION ************/
+/*********************************/
+.section-hub{
+    z-index: 9999;
+    background-color: #f3f5f6;
+}
+
+.hub{
+    padding-top: 25rem;
+    display: flex;
+    padding-bottom: 15rem;
+    align-items: center;
+    gap: 12rem;
+}
+
+.hub-img img{
+    width: 62rem;
+    border-radius: 20px;
+    margin-left: -9vw;
+}
+
+.hub-infos{
+    padding-right: 18rem;
+}
+
+.hub-infos h4{
+    color: #002e45;
+    font-weight: bolder;
+    text-align: start;
+    font-size: 2.8rem;
+    margin-bottom: 4.4rem;
+    padding-left: 7rem;
+}
+
+.hub-info{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hub-info img{
+    width: 5rem;
+}
+
+.hub-head{
+    color: #176a97;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+.hub-text{
+    font-size: 1.4rem;
+    color: #505050;
+    line-height: 1.4;
+}
+
+/********************************/
+/******* PARTNERS SECTION *******/
+/********************************/
+.section-partner{
+    padding: 6rem 1rem;
+    background-color: #fff;
+}
+
+.partners{
+    padding-left: 16rem;
+    padding-right: 10rem;
+}
+
+.partners-images{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.partners-img img{
+    width: 6rem;
+    padding-bottom: 0.7rem;
+}
+
+.partners-info{
+    color: #176a97;
+    font-size: 1.1rem;
+}
+
+.partners-info span{
+    font-weight: 900;
+    display: block;
+    font-size: 1.3rem;
+}
+
+.visa img{
+    width: 7rem;
+}
+
+.finalist img{
+    width: 8rem;
+}
+
+.fin-tech img{
+    width: 8rem;
+}
+
+/*****************************/
+/******* TEAM SECTION*********/
+/*****************************/
+.section-team{
+    background-color: #f3f5f6;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.team{
+    max-width: 90rem;
+    margin: auto;
+}
+
+.team-head{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #002e45;
+    text-align: center;
+    padding-bottom: 2.2rem;
+}
+
+.team-info{
+    font-size: 1.5rem;
+    color: #505050;
+    text-align: center;
+    padding:0rem 8rem 7rem 13rem;
+    line-height: 1.4;
+}
+
+.member-img{
+    width: 17rem;
+    border: 6px solid #fff;
+    border-radius: 20%;
+}
+
+.team-members{
+    padding-left: 8rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 6rem;
+    row-gap: 8rem;
+}
+
+.name{
+    color: #002e45;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.role{
+    color: #0993dc;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/**********************************/
+/******* FOOTER ******************/
+/*********************************/
+.section-footer{
+    background-color: #000a0f;
+    position: relative;
+    z-index: 99;
+    padding: 3.6rem;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.footer-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 12rem;
+}
+
+.footer-head{
+    color: #fff;
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+.download{
+    display: flex;
+    gap: 1rem;
+}
+
+.download img{
+    width: 18rem;
+}
+
+.footer-boxes{
+    max-width: 107rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 11rem;
+    padding-bottom: 3.5rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.footer-link{
+    color: hsla(0,0%,100%,.7);
+    font-size: 1.17rem;
+    text-decoration: none;
+}
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.faded{
+    font-size: 1.24rem;
+    color: #5a5a5a;
+    margin-bottom: 1rem;
+}
+
+.media-icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.media-icon a img{
+    width: 2rem;
+}
+
+.contact-head{
+    margin-bottom: 1.7rem;
+}
+
+.mail img,.number img{
+    width: 2rem;
+}
+
+.mail,.number{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.mail-name,.num{
+    color: hsla(0,0%,100%,.7);
+    font-size: 1.24rem;
+    text-decoration: none;
+    padding-bottom: 1.5rem;
+}
+
+.reserved{
+    max-width: 107rem;
+    margin: auto;
+}
+
+.reserved-info{
+    border-bottom: 1px solid #5a5a5a;;
+}
+
+.reserved-img{
+    width: 11.6rem;
+    padding: 1.7rem 0rem;
+}
+
+.reserved-text{
+    padding-top: 1.7rem;
+}
+
+.message-icon{
+    position: fixed;
+    z-index: 123556589;
+    background-color: #0071b2;
+    border-radius: 50%;
+    width: 4.8rem;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    bottom: 3rem;  
+    right: 2rem;
+}
+
+.message-icon svg{
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: #fff; 
+}
