@@ -176,13 +176,36 @@
         position: sticky;
     }
 
+    .mobile-exp p{
+        animation: changing 2s linear infinite alternate-reverse;
+    }
+
     #click:checked ~ .mobile-links{
         opacity: 1;
         display: flex;
     }
 
-    #click:checked ~ .label ion-icon{
+    .label{
+        transition: all 0.5s;
+    }
+
+    .close-menu,.open-menu{
+        transition: all 0.6s;
+    }
+
+    .close-menu{
+        display: none;
+    }
+
+    #click:checked ~ .label .open-menu{
         color: #fff;
+        display: none;
+        transition: all 0.5s;
+    }
+
+    #click:checked ~ .label .close-menu{
+        display: block;
+        transition: all 0.5s;
     }
 
     .mobile-links{
@@ -296,6 +319,7 @@
 
     .exp-boxes{
         overflow-x: scroll;
+        overflow-y: hidden;
         margin-top: 8rem;
         background: rgba(0,13,20,.7);
         padding: 3rem 5rem 3rem 1rem;
@@ -380,12 +404,13 @@
 
     .hero-you{
         font-size: 3.3rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 1rem;
         left: 10%;
-        width: 35rem;
+        width: 28.4rem;
     }
-
+    
     .hero-start{
+        left: 65%;
         font-size: 1.8rem;
         top: 75%;
     }
@@ -492,7 +517,7 @@
     .hero-start{
         font-size: 1.5rem;
         padding: 1.4rem 1.6rem;
-        top: 71%;
+        top: 70.7%;
     }
 
     .exp-text p{
@@ -504,7 +529,7 @@
     }
 
     .hero-you{
-        left: 6%;
+        left: 4.8%;
     }
 
     .exphead{
@@ -589,8 +614,6 @@
         font-style: normal;
         font-weight: 800;
     }
-
-
 }
 
 @media(max-width: 425px){
@@ -603,16 +626,34 @@
     html{
         font-size: 60%;
     }
+
+    .hero-start{
+        top: 70.7%;
+    }
+}
+
+@media(max-width: 376px){
+    .hero-start{
+        top: 72.6%;
+    }
 }
 
 @media(max-width: 370px){
     html{
         font-size: 57%;
     }
+
+    .hero-start{
+        top: 71.6%;
+    }
 }
 
 @media(max-width: 300px){
     html{
         font-size: 44%;
+    }
+
+    .hero-start{
+        top: 70.4%;
     }
 }

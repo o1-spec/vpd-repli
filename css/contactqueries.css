@@ -194,7 +194,27 @@
         display: flex;
     }
 
-    #click:checked ~ .label ion-icon{
+    .label{
+        transition: all 0.5s;
+    }
+
+    .close-menu,.open-menu{
+        transition: all 0.6s;
+    }
+
+    .close-menu{
+        display: none;
+    }
+
+    #click:checked ~ .label .open-menu{
+        color: #fff;
+        display: none;
+        transition: all 0.5s;
+    }
+
+    #click:checked ~ .label .close-menu{
+        display: block;
+        transition: all 0.5s;
         color: #fff;
     }
 

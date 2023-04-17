@@ -599,6 +599,22 @@ nav{
     padding-right: -0.5vw;
 }
 
+.exp-info{
+    text-align: center;
+    transform: translate(-19.7rem,12rem);
+    font-size: 1.1rem;
+    animation: changing 2s linear infinite alternate-reverse;
+}
+
+@keyframes changing{
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 /*********************************/
 /*** ACCOUNT SECTION *************/
 /*********************************/
