@@ -620,6 +620,10 @@
     .animations h2{
         font-size: 5.1rem;
     }
+
+    .hero-you{
+        top: 63%;
+    }
 }
 
 @media(max-width: 400px){
